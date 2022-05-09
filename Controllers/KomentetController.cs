@@ -17,6 +17,7 @@ namespace E_Voting.Controllers
     {
         public readonly IConfiguration _configuration;
 
+
         public KomentetController (IConfiguration configuration)
         {
             _configuration = configuration; 
