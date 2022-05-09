@@ -17,11 +17,12 @@ namespace E_Voting.Controllers
     {
         public readonly IConfiguration _configuration;
 
+
         public KomentetController (IConfiguration configuration)
         {
             _configuration = configuration; 
         }
-
+        //READ Method (Read All Records From DataBase)
         [HttpGet]
         public JsonResult Get()
         {
